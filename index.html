@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahasia Kaya di Usia Muda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00cba9, #00aaff);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px 60px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      animation: fadeSlideDown 1s ease-out;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 20px;
+      animation: fadeUp 1.2s ease forwards;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #00a878;
+      margin-bottom: 24px;
+      border-left: 6px solid #00cba9;
+      padding-left: 12px;
+      position: relative;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 16px;
+      border-left: 5px solid #00aaff;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeCard 0.6s ease-out forwards;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #e7fdf4;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:nth-child(even) {
+      animation-delay: 0.2s;
+    }
+
+    .card:nth-child(odd) {
+      animation-delay: 0.4s;
+    }
+
+    .video-intro {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .youtube-link {
+      display: inline-block;
+      background: #0077ff;
+      color: #fff;
+      padding: 14px 32px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      box-shadow: 0 6px 16px rgba(0, 119, 255, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .youtube-link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 119, 255, 0.6);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 60px 0 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeSlideDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeCard {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rahasia Kaya di Usia Muda</h1>
+    <p>Strategi praktis & mindset kuat untuk meraih kebebasan finansial sebelum 30 Tahun.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Poin-Poin Utama</h2>
+      <div class="card">⏳ <strong>Waktu adalah Kekayaan Sejati:</strong> Gunakan masa muda untuk menanam aset.</div>
+      <div class="card">💡 <strong>Pola Pikir Pemenang:</strong> Mental tangguh, yakin diri, dan tidak gampang menyerah.</div>
+      <div class="card">🔥 <strong>Gunakan Emosi Jadi Energi:</strong> Ubah kemarahan dan tekanan jadi dorongan untuk maju.</div>
+      <div class="card">🎯 <strong>Bet Asimetris:</strong> Ambil peluang kecil yang bisa hasilkan lonjakan besar.</div>
+      <div class="card">🛑 <strong>No Alasan, Full Tanggung Jawab:</strong> Hindari mentalitas korban, mulai ambil kendali.</div>
+      <div class="card">🤝 <strong>Lingkungan Positif:</strong> Orang-orang di sekitar kamu itu pengaruh besar.</div>
+      <div class="card">🚀 <strong>Tindakan Nyata:</strong> Jangan tunggu sempurna, mulailah sekarang.</div>
+    </section>
+
+    <section>
+      <h2>Wawasan Tambahan</h2>
+      <div class="card"><strong>Pola Pikir = Aset Utama:</strong> Keyakinan diri membentuk realita finansialmu.</div>
+      <div class="card"><strong>Fokus & Disiplin:</strong> Kunci dari hasil luar biasa ada di kebiasaan kecil harian.</div>
+      <div class="card"><strong>Waktu vs Uang:</strong> Orang kaya beli waktu, bukan barang.</div>
+      <div class="card"><strong>Lingkungan Menentukan:</strong> Gabung dengan mereka yang berpikir jauh ke depan.</div>
+    </section>
+<section class="video-intro">
+    <p>
+      Website ini terinspirasi dari sebuah video YouTube yang penuh wawasan dan motivasi.  
+    </p>
+    <a class="youtube-link" href="https://youtu.be/6M_keF9qu04?si=qxiI4uVB_M44ESVp" target="_blank" rel="noopener noreferrer">
+      Tonton Sekarang
+    </a>
+  </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Menuju Kebebasan Finansial
+  </footer>
+
+</body>
+</html>
